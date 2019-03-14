@@ -58,10 +58,11 @@ GuidingProject(Android專案名稱)
 
 GPU_test.ino(Arduino程式碼)
 ----------------------------
-> [!NOTE]
+Arduino端*建立藍芽連線*、*導航指令判讀*、*設定指令顯示圖*的程式碼。
+
+>[!NOTE]
 >請先在電腦中，Arduino的Libary資料夾中加入這些[函式庫](https://drive.google.com/open?id=1BN2cVhkNcPo1DAjy2CpQeJpGof3ncZrU)。
 
-Arduino端*建立藍芽連線*、*導航指令判讀*、*設定指令顯示圖*的程式碼。
 
 外殼3D圖檔
 ----------------
