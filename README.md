@@ -16,35 +16,35 @@ GuidingProject(Android專案名稱)
 >>build.gradle(Module:app)
 >>AndroidManifest.xml
 
-    Java程式碼
+### Java程式碼
 >[!NOTE]
 >路徑: GuidingProject/app/src/main/java/com/p1/genius/bluetoothconectionapp/
 >藏得非常隱密。
 
-        MainActivity.java
+#### MainActivity.java
 主畫面程式碼。
 
-        MapsActivity.java
+#### MapsActivity.java
 導航畫面程式碼。
 
-        BluetoothController.java
+#### BluetoothController.java
 管理藍芽通訊的程式碼。
 
-        GuidingThread.java
+#### GuidingThread.java
 執行導航任務的程式碼。
 
 
-    使用者介面(xml檔)
+### 使用者介面(xml檔)
 >[!NOTE]
 >路徑: GuidingProject/app/src/main/res/layout/
 
-        activity_main.xml
+#### activity_main.xml
 決定主畫面的長相。
 
-        activity_maps.xml
+#### activity_maps.xml
 決定導航畫面的長相。
 
-    Google Services說明
+### Google Services說明
 使用到的services:
 -[Google LocationServices](https://developers.google.com/android/reference/com/google/android/gms/location/LocationServices)
 -[Google GeoAPI](https://developers.google.com/maps/documentation/geolocation/intro)
