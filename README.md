@@ -4,7 +4,8 @@
 
 指導老師：莊家峰教授
 
-# GuidingProject(Android專案名稱)
+GuidingProject(Android專案名稱)
+--------------------------------
 >[!WARNING]
 >請於Android Studio中點選File->Open->GuidingProject絕對路徑，GuidingProject資料夾將會被Android Studio(簡稱AS
 )自動判定為Android專案，點擊即可開啟本專案。
@@ -15,35 +16,35 @@
 >>build.gradle(Module:app)
 >>AndroidManifest.xml
 
-##Java程式碼
+    Java程式碼
 >[!NOTE]
 >路徑: GuidingProject/app/src/main/java/com/p1/genius/bluetoothconectionapp/
 >藏得非常隱密。
 
-###MainActivity.java
+        MainActivity.java
 主畫面程式碼。
 
-###MapsActivity.java
+        MapsActivity.java
 導航畫面程式碼。
 
-###BluetoothController.java
+        BluetoothController.java
 管理藍芽通訊的程式碼。
 
-###GuidingThread.java
+        GuidingThread.java
 執行導航任務的程式碼。
 
 
-##使用者介面(xml檔)
+    使用者介面(xml檔)
 >[!NOTE]
 >路徑: GuidingProject/app/src/main/res/layout/
 
-###activity_main.xml
+        activity_main.xml
 決定主畫面的長相。
 
-###activity_maps.xml
+        activity_maps.xml
 決定導航畫面的長相。
 
-##Google Services說明
+    Google Services說明
 使用到的services:
 -[Google LocationServices](https://developers.google.com/android/reference/com/google/android/gms/location/LocationServices)
 -[Google GeoAPI](https://developers.google.com/maps/documentation/geolocation/intro)
@@ -55,10 +56,12 @@
 >並且為專案申請一組金鑰，將金鑰加入AndroidManifest.xml中(怎麼加入請自行Google)。
 >此專案已經有一組金鑰，已能正常取得服務。然而只有金鑰持有人才能從Google Cloud Platform查看與Google伺服器連線的資訊，因此建議自行開通帳號申請自己的金鑰。
 
-#GPU_test.ino(Arduino程式碼)
+GPU_test.ino(Arduino程式碼)
+----------------------------
 > [!NOTE]
 >請先在電腦中，Arduino的Libary資料夾中加入這些[函式庫](https://drive.google.com/open?id=1BN2cVhkNcPo1DAjy2CpQeJpGof3ncZrU)。
 
 Arduino端*建立藍芽連線*、*導航指令判讀*、*設定指令顯示圖*的程式碼。
 
-#外殼3D圖檔
+外殼3D圖檔
+----------------
