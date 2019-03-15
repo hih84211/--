@@ -64,5 +64,6 @@ Arduino端*建立藍芽連線*、*導航指令判讀*、*設定指令顯示圖*�
 >請先在電腦中，Arduino的Libary資料夾中加入這些[函式庫](https://drive.google.com/open?id=1BN2cVhkNcPo1DAjy2CpQeJpGof3ncZrU)。
 
 
-外殼3D圖檔
+3D圖檔
 ----------------
+外殼部件的3D圖檔。
